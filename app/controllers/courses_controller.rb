@@ -4,3 +4,5 @@ class CoursesController < ApplicationController
   	@courses = Coursera.for(@search_term)
   end
 end
+
+

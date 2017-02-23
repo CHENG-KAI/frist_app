@@ -1,5 +1,6 @@
 module GreeterHelper
   def formatted_time(time)
-    time.strftime("%I:%M%p")
+    # time string in AM/PM format
+	time.strftime("%I:%M%p")
   end
 end
